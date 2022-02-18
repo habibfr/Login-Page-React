@@ -7,7 +7,7 @@ import Button from '../UI/Button/Button';
 const Home = (props) => {
   return (
     <Card className={classes.home}>
-      <h1>Welcome back!</h1>
+      <h1>Welcome back Habib!</h1>
       <Button onClick={props.onLogout}>Log Out</Button>
     </Card>
   );
